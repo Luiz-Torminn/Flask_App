@@ -1,0 +1,68 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(188, 248, 248);
+}
+body h1 {
+  color: rgb(0, 83, 83);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.content h4 {
+  color: #666;
+}
+.content table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+.content table th,
+.content table td,
+.content table tr {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.content table th th,
+.content table td th,
+.content table tr th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+.content a {
+  display: block;
+  padding: 8px 0px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.content a:hover {
+  background-color: rgb(0, 83, 83);
+}
+.content input {
+  padding: 10px;
+  margin: 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+.content #add_btn {
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+.content #add_btn:hover {
+  background-color: #218838;
+}/*# sourceMappingURL=style.css.map */
